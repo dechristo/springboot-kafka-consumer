@@ -1,4 +1,5 @@
-# Spring Boot + Kafka : Consumer with Unit and Integration tests, security, etc.
+# Kafka Consumer example with Spring Boot
+Kafka + Spring Boot: Consumer with Unit and Integration tests, security, etc.
 - Java 17
 - Spring Boot 2.7.4
 
