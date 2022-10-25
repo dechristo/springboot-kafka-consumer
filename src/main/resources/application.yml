@@ -3,6 +3,9 @@ spring:
     active: local
 server:
   port: 8081
+topics:
+  retry: 'library.events.retry'
+  dead-letter: 'library.events.dead-letter'
 
 ---
 spring:
