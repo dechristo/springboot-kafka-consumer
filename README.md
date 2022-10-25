@@ -3,6 +3,8 @@ Kafka + Spring Boot: Consumer with Unit and Integration tests, security, etc.
 - Java 17
 - Spring Boot 2.7.4
 
+This project uses publishing recovery (retry and deadletter topics).
+For DB + Scheduler approach, please look at https://github.com/dechristo/springboot-kafka-consumer-db-recovery
 ## 1. Application Start
 Run the App with `./gradlew bootRun`
 
